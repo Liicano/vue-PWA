@@ -1,0 +1,78 @@
+export default {
+  base: {
+    menu: 'menu',
+    button: 'botón',
+    goodMorning: 'bom día',
+    term1: 'Eu concordo com os',
+    term2: 'termos e condições',
+    EmptyState: '¡No se encontraron resultados!',
+    EmptyStateSub: 'Sin resultados para ',
+    SubTotal: 'Subtotal',
+    Save: 'Guardar',
+    Export: 'Exportar',
+    Delete: 'Eliminar',
+    Send: 'Enviar',
+    Empty: 'Vacio',
+    Exit: 'Salir',
+    Search: 'Buscar'
+  },
+  validations: {
+    // INCOMES
+    EmptyFields: '¡UNO O MAS CAMPOS VACIOS!',
+    ShoppingCartLength: '¡LA VENTA NO PRESENTA ITEMS!',
+    IncompleteItem: '¡ITEM INCOMPLETO!',
+    SuccessItemAdd: '¡ITEM AGREGADO CORRECTAMENTE!',
+    SuccessIncome: '¡VENTA EXITOSA!'
+  },
+  modules: {
+    outcome: 'Gastos',
+    income: 'Ventas',
+    accounting: 'contabilidad',
+    task: 'tareas',
+    home: 'home',
+    login: 'login',
+    user: 'users',
+    business: 'business'
+  },
+  user: {
+    enter: 'ingresar',
+    register: 'registrarse',
+    lost: 'olvidaste tu contraseña',
+    username: 'nombre de usuario',
+    password: 'contraseña',
+    profile: 'perfil',
+    name: 'name',
+    email: 'correo electrónico',
+    classic: 'o se clasico',
+    login: 'Ingresa con',
+    loginGo: `empecemos`,
+    signup: 'empecemos',
+    logout: 'cerrar sesión',
+    editProfile: 'editar perfil',
+    googleLogin: 'con google'
+  },
+  business: {},
+  income: {
+    income: 'Venta',
+    pending: 'Pendiente',
+    sold: 'Vendido',
+    Title: 'Mis ventas',
+    Id: 'ID',
+    Reference: 'Referencia',
+    Client: 'Cliente',
+    Date: 'Fecha',
+    Total: 'Total',
+    State: 'Estado',
+    Note: 'Nota',
+    New_f: 'Nueva',
+    New_m: 'Nuevo',
+    Item_s: 'Item',
+    itemName: 'Nombre del item',
+    Price: 'Precio',
+    CheckIn: 'Facturar',
+    Duplicate: 'Duplicar',
+    EmptySale: 'Venta vacia',
+    DocumentTipe: 'Tipo de documento'
+  },
+  outcome: {}
+};

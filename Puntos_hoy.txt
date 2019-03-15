@@ -1,0 +1,229 @@
+
+SIN RESOLVER:
+
+PUNTOS DE HOY:
+
+SOLUCIONADOS: 
+1.- en selección masiva, cantidad y costo debe mantenerse de no ser modificado --SOLUCIONADO--
+2.- al agregar contacto debe detectar nombre de contacto si es correo electrónico. --SOLUCIONADO--
+3.- al hacer click en compartir, debería traer correo automaticamente si detecta el nombre de contacto como correo(contactName) --NO HIZO FALTA HACER--
+5.- al guardar por primera vez, se debe agregar id a la url para poder refrescar la pagina --SOLUCIONADO--
+4.- ventas y compras de empresas, falta nombre de la misma en el listado. --SOLUCIONADO--
+4.- animación para gesto eliminar (SE DEBE ANIMAR UNICAMENTE EL QUE SE VA A ELIMINAR Y NO TODA LA LISTADO) --SOLUCIONADO--      
+2.- al buscar un cliente y/o responsable de un movimiento, y aparece una empresa en el listado, debe mostrar el rut en donde muestra email para usuarios.--SOLUCIONADO--
+7.- edición de item, boton de + y -, para cantidad, cantidad y precio deben ir en la misma linea. --SOLUCIONADO--
+12.- Problema con el getUserName y el getUserImg en outcome list y outcome form
+13.- Error en el transition de los inputs de income_name y income_client, cuando le doy a agregar item este se dispara y se ve feo,
+     de igual manera cuando se cierra el dialog. ( NEW INCOME )
+10.- Chequear que aveces cuando doy click las letra se separan, esto sucede en incomes.vue o outcomes.vue
+14.- Vista de item de ESCRITORIO. (ITEM CRUD, ITEM FORM en INCOME) --SOLUCIONADO--
+
+HECHAS ESTA SEMANA:
+    .-  Sacar subtotal del cajón agregar item --SOLUCIONADO--              
+.-  Cantidad de ítem, entre los botones de más y menos --SOLUCIONADO--
+.-  Checkbox debe ser la imagen del item--SOLUCIONADO--
+ .-  Al seleccionar varios, modificar solo cantidad --SOLUCIONADO--
+  .-  Al agregar vários items,solo pide modificar cantidad-- SOLUCIONADO--
+    .-  LImpiar seleccion despues de agregar lineas (ESCRITORIO). --SOLUCIONADO--
+    .-  Mostrar razón social al buscar empresa--SOLUCIONADO--
+    .-  Precio promedio, y precio catalogo--SOLUCIONADO--
+    .-  Cantidad por defecto en el item --SOLUCIONADO--
+    8.- mantenedor del catalogo(crud), precio ideal de compra y/o venta y margen, mínimo , máximo, cantidad y costos.--SOLUCIONADO--
+    .-  Listado de items más usados, mostrar último precio usado del item --SOLUCIONADO
+    .-  Al crear movimiento desde un usuario a una empresa ( este no es mostrado en el listado de movimientos de dicha empresa  income, outcome) --SOLUCIONADO--
+6.- listado de items mas usados al crear item, si se selecciona 1, se entra en modo editar item, si se selecciona varios, se agregan automáticamente. (95% DE AVANCE)(EN PRUEBAS)
+3.- ventana de "desea crear el contacto" debe ser persistente, y venir con el correo ya lleno si el nombre de contacto era un correo. (100% DE AVANCE)
+11.- hacer que el chekbox cambie de estado al hacer click en el padre (list-item), en income_list.vue y income_form.vue 
+.-  Mostrar icono de empresas en listado de movimientos
+  .-  Acceder a la ficha del ítem desde listado de ítem en el movimiento --SOLUCIONADO--
+    9.- Perfeccionar diseño en (todos los modulos) de los inputs.
+
+
+
+
+EN DESARROLLO:
+(.-  En agregar contacto Mostrar nombre si este usuario ya está registrado en
+        una, "deseas agregar a Jorge Jofre a tus contactos ")        -------------_>>>>>>>>>>>> ESTA EN VEREMOS
+
+        
+  
+
+    
+
+
+
+DESARROLLO NUEVO:
+    COMPLEJOS:
+1.- en listado de compra/venta y dentro de cada movimiento, debe mostrar el usuario que creo el movimiento adicional a la empresa correspondiente.
+5.- alerta deshacer al eliminar, compartir.
+ .- Categorías como plantilla
+ .-  Los niveles serán de acuerdo a colores, y filtro de colores para cada nivel
+     de categoría
+ .-  Agrupar items al seleccionar varios, y nombre de categoría será una línea
+ 
+
+    
+     SIMPLES:
+  
+    .-ERROR AL SELECCIONAR UN ITEM, SALIR DEL DIALOG Y ENTRAR DE NUEVO (cannot read property 'lastPrice')
+
+
+    ESTA SEMANA: --> 
+
+    Al ver lista de últimos items, y seleccionar uno, agregarlo automáticamente con el último precio usado.--solucionado--
+
+Al editar un ítem, mostrar precios, último, promedio, catálogo, quitar botón eliminar y guardar.
+
+Al seleccionar varios items desde agregar, no pedir cantidad, agregar directo.--solucionado--
+
+Eliminar cantidad del editar ítem, ya que es un prototipo y no las unidades como tal.--NO SE HIZO--
+    
+    
+    
+    
+    
+    
+    
+ 
+ 
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+EMPRESAS:
+
+mareo en agregar user con el bottom_navbar --PROBADO Y NO DETECTADO--
+error al enviar correo a un contact que no existe.   (VALIDAR CORREO VALIDO Y QUE HAYA LINEAS)  --SOLUCIONADO--
+agregar contacto desde el campo cliente/responsable --SOLUCIONADO--
+listado de items en lado izquierdo y editor en lado derecho. --SOLUCIONADO--
+
+
+
+
+QUEDO EN EL LIMBO ESTO (DISCUTIR LUEGO).
+agregar items al recibir compra, dependiendo del estado.
+acordeón de empresas en imagen de perfil
+cuando el correo ya esta asociado, enviar link de income o outcome, y no movement
+seleccionar varios ítems --SOLUCIONADO--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+RESUELTO: 
+
+ADAPTAR A DESKTOP EL FORMULARIO DEL REGISTRO DE EMRPESA ASI COMO TAMBIEN EL LISTADO DEL MISMO. --SOLUCIONADO--
+ACOMODAR EL HECHO DE COMO CAMBIE EL CARD DENTRO DLE INCOME, ESTE AVECES NO MUESTRA LA IMAGEN.  --SOLUCIONADO--
+
+AL CREAR DOS ITEMS UNICAMENTE SE GUARDA EL PRIMERO (VENTA - NO ID).  --SOLUCIONADO--
+NO APARECE IMAGEN EN CREATE - NO USER (VENTA - SI ID).  --SOLUCIONADO--
+MANEJAR VISTA Y FLUJO DENTRO DE INCOME --SOLUCIONADO--
+MOSTRAR Y PERMITIR CAMBIO DE EMPRESA DESDE ESCRITORIO. --RESUELTO--
+MANEJAR QUE CUANDO SE ESTA EN EL LISTADO DE VENTAS/COMPRAS Y SE CAMBIE DE EMPRESA SE ACTUALICE. --RESUELTO--
+MANEJAR QUE ICONOS SE MUESTRAN EN EL ESCRITORIO DEL NAVBAR. --RESUELTO--
+corregir etiquetas dentro de editor de empresa.  --SOLUCIONADO--
+(CONFUSION A LA HORA DE SIGNAR RESPONSABLE EN OUTCOME_NEW) -- SOLUCIONADO --
+ERROR EN EL MONTO DEL INCOME_FORM (PRICE) Y EL DE ITEM EN ITEM_LIST --SOLUCIONADO--
+BOTTOM_MODAL DEBE DESAPARECER AL ENVIAR COTIZACION CON EXITO --SOLUCIONADO--
+ERROR AL QUERER COMPARTIR CUANDO ES UN CONTACTNAME. --SOLUCIONADO--
+TRIGGER AL BUSCAR CLIENT O ITEM  (AUTOCOMPLETE)  --SOLUCIONADO--
+ERROR AL BORRAR TODO EL CAMPO ITEM DEL AUTOCOMPLETE  --SOLUCIONADO-- (con detalles en web)
+
+AL CREAR CONTACTO,  HAY UN MAREO EN EL BLUR, (SI SE PRESIONA DIRECTAMENTE DEL BOTON CREAR CONTACTO Y EL CORREO ESTA LIGADO A UN USUARIO, 
+ESTE SE CREA COMO CONTACTO Y NO COMO USER.
+ VALIDAR QUE ESE CORREO EXISTA EN BASE DE DATOS AL PRESIONAR CREAR CONTACTO)    --  SOLUCIONADO --
+
+
+ Desarrollar vista amigable para el client cuando este no esta registrado en unabase y recibe una COTIZACION.  -- SOLUCIONADO --
+Mareo del bottom_navbar cuando se ingresa desde internet a ver una compra -- SOLUCIONADO --
+
+ Se muestra mi nombre en el card cuando se ocultan los inputs!!  (ERROR EN getUserName()) -- SOLUCIONADO -- 
+
+ create (no user) - Al crear contacto no se muestra su imagen, se muestra N/A (ERROR EN getUserImg())  --SOLUCIONADO--
+CREATE ( USER ) - En el modal muestra mi nombre y no el del contacto cuando no hay id
+CREATE ( NO USER ) - En el modal muestra mi nombre y no el del contacto cuando no hay id
+SELECCIONANDO - En el modal muestra mi nombre y no el del contacto cuando no hay id
+Contactname - ME DA ERROR DE imgUrl (Error en el getUserImg)
+Cuando actualizo un income, este desaparece de mi listado. (compras) --SOLUCIONADO--
+cuando creo un item y le habia dado un valor (quntity), este se queda en 1 a lcrear el item. -- SOLUCIONADO --
+
+
+1.- Al hacer click en la empresa que aparece en el topnavbar el objeto del store debe llenarse. --SOLUCIONADO--
+
+2.- Al tener el objeto en el store lleno, la imagen de perfil debe cambiar y aparecer (Usuario/Empresa).   --SOLUCIONADO--
+
+3.- Validar en los GET que si el objeto esta lleno me traiga los movimientos de la empresa (getAllIncomes).    --SOLUCIONADO--
+    Validar en los POST que si el objeto esta lleno haga post y como responsable mande a la empresa (postIncome).  --SOLUCIONADO--
+
+
+             
+
+Agregar boton de eliminar empresa.  --SOLUCIONADO--
+
+
+    
+CAMBIAR EL MODELO DE NOTIFICACIONES. (!!POSTPUESTO PARA DESPUES!!)
